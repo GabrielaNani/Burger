@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://st2.depositphotos.com/2727401/6828/v/380/depositphotos_68282607-stock-illustration-black-chalkboard-texture-vector-background.jpg?forcejpeg=true");
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.text{
+    color: white;
+    text-align: center;
+}
+
+.img{
+    width: 250px;
+    height: 200px;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.left .right{
+    display: flex;
+}
+
+.images{
+    width: 150px;
+    height: 100px;
+}
+
+.square{
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+.image{
+    width: 100px;
+    height: 50px;
+}
+.middle-square{
+    display: flex;
+    flex-direction: column;
+}
