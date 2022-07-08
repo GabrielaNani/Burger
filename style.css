@@ -53,11 +53,18 @@ body {
     padding: 6px 12px;
     border-top: none;
 }
-.image{
+
+.buns{
+    display: flex;
+    flex-direction: column;
     width: 100px;
     height: 50px;
 }
-.middle-square{
-    display: flex;
-    flex-direction: column;
+
+.white-bun, .black-bun, .add{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-size: 50px;
+
 }
